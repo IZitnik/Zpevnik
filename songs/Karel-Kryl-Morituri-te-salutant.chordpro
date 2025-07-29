@@ -2,11 +2,16 @@
 {artist: Karel Kryl}
 {time: 4/4}
 
+{start_of_intro}
+Intro
+[Emi]1234 [D]1234 [Emi]1234 [D]1
+{end_of_intro}
+
 {start_of_verse: 1}
-Cesta je [Ami]prach a [G]šterk a [Dmi]udusaná [Ami]hlína 
-[C]a šedé [F]šmouhy [G7]kreslí do vla[C]sů 
-/: a z hvězdných [Dmi]drah má [G]šperk co [C]kamením se [E]spíná 
-   [Ami]a pírka [G]touhy z [Emi]křídel pega[Ami]sů. :/
+Cesta je [Emi]prach a [D]šterk a [Ami]udusaná [Emi]hlína 
+a šedé [Ami]šmouhy [D]kreslí do vla[G]sů 
+/: a z hvězdných [Ami]drah má [D]šperk co [G]kamením se [B7]spíná 
+   [Emi]a pírka [D]touhy z křídel pega[Emi]sů. :/[D][Emi][D]
 {end_of_verse}
 
 {start_of_verse: 2}
@@ -17,11 +22,11 @@ má v ruce štítky v pase staniol,
 {end_of_verse}
 
 {start_of_chorus}
-[G]Seržante písek je bílý jak paže Daniely 
-[Ami]Počkejte chvíli mé oči uviděli
-[G]tu strašně dávnou vteřinu zapomnění 
-[Ami]Seržante mávnou [G7]a budem zasvěceni.
-[Ami]Morituri te salutant, morituri [E]te salutant
+[D]Seržante písek je bílý jak paže Daniely 
+[Emi]Počkejte chvíli mé oči uviděli
+[D]tu strašně dávnou vteřinu zapomnění 
+[Emi]Seržante mávnou [D]a budem zasvěceni.
+[Emi]Morituri te salutant, morituri te salu[D]tant
 {end_of_chorus}
 
 {start_of_verse: 3}
