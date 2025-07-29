@@ -1,7 +1,9 @@
 {title: Amazonka}
 {artist: Hop Trop}
 {time: 4/4}
+
 {start_of_intro}
+Intro
 [A] [Asus4] [A]
 {end_of_intro}
 
@@ -17,7 +19,7 @@ Tenkrát byly děti malý, ale život utíká,
 už na "táto" slyší jinej, i když si tak neříká.
 {end_of_verse}
 
-{start_of_chorus: Rf 1}
+{start_of_chorus}
 Nebe modrý zrcad[A]lí se v [F#7]řece, která všechno [Bmi]ví,
 stejnou barvu jako [A]měly t[Bmi]voje oči džínový.[E][Esus4]
 {end_of_chorus}
@@ -39,7 +41,7 @@ Zlatý kráse cingrlátek, jak sis časem myslela,
 vadil možná trampskej šátek, nosit dáls' ho nechtěla.
 {end_of_verse}
 
-{start_of_chorus: Rf 2}
+{start_of_chorus}
 Teď jsi víla z paneláku, samá dečka, samej krám,
 já si přál jen, abys [A]byla 
 /: [Bmi]pořád stejná, přísa[A]hám.[Asus4][Bmi] :/
