@@ -10,8 +10,11 @@ songs\Karel-Kryl-Morituri-te-salutant.chordpro
 songs\Karel-Plihal-Nosorozec.chordpro
 songs\Maci-Uz-to-nenapravim.chordpro
 songs\Miki-Ryvola-Bedna-od-whisky.chordpro
+songs\Nedvedi-Podvod.chordpro
 songs\Nedvedi-Stanky.chordpro
+songs\Okor.chordpro
 songs\Tomas-Klus-Vlocka.chordpro
 songs\Traband-Mraky.chordpro
 songs\Traband-O-malem-rytiri.chordpro
 songs\Traband-Saro.chordpro
+songs\Wabi-Danek-Montgomery.chordpro
