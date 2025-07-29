@@ -10,6 +10,12 @@ SONGBOOK = "Zpevnik.pdf"
 songs = [os.path.join(SONG_DIR, f)
          for f in os.listdir(SONG_DIR) if f.endswith(".chordpro")]
 
+# initialize RES_DIR & SONG_DIR
+if not os.path.exists(SONG_DIR):
+    os.makedirs(SONG_DIR)
+if not os.path.exists(RES_DIR):
+    os.makedirs(RES_DIR)
+
 with open("build.ninja", "w") as f:
     f.write(f"""# Auto-generated build.ninja
 song_dir = {SONG_DIR}
@@ -23,11 +29,11 @@ rule build_songbook
   description = Building songbook $out
 
 rule build_song
-  command = chordpro --config=$config $in -o $res_dir
+  command = chordpro --config=$config $in -o $res_dir/$out
   description = Building song $in
 
 rule clean
-  command = rm -rf $res_dir
+  command = rm -rf $res_dir/*
   description = Cleaning build directory
 
 """)
@@ -38,7 +44,8 @@ rule clean
 
     # Per-song builds
     for song in songs:
-        f.write(f"build {os.path.basename(song)}.pdf: build_song {song}\n")
+        f.write(f"build {os.path.basename(song).rstrip(
+            ".chordpro")}.pdf: build_song {song}\n")
 
     f.write("\n")
     f.write("build clean: clean\n")
