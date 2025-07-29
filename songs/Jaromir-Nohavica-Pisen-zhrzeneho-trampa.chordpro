@@ -1,0 +1,61 @@
+{title: Píseň zhrzeného trampa}
+{artist: Jaromír Nohavica}
+
+{start_of_verse: 1}
+[C]Poněvadž nemám [G]kanady a [F]neznám písně [C]z pamp
+[F]Ho, ho, [C]ho - a [G]neznám písně z [C]pamp [G]
+
+Vyloučili mě z osady, že prý jsem houby tramp
+Ho, ho, ho - že prý jsem houby tramp
+
+Napsali si do cancáků, jen ať to každý ví,
+Ho, ho, ho - jen ať to každý ví,
+
+vyloučený z řad čundráků, ten frajer libový
+Ho, ho, ho - ten frajer libový
+{end_of_verse}
+
+{start_of_chorus}
+A [C]Já jsem [G]ostuda [Ami]traperů,
+[F]já mám rád [C]operu, [G]já mám rád [C]jazz-[G]rock
+[C]Chodím [G]po světe [Ami]bez nože, 
+[F]to prý se [C]nemože, [G]to prý jsem [C]cvok,[C7]
+
+[F]Já jsem nikdy neplul [C]na šífu 
+a všem [D7]šerifům jsem říkal: ba[G]ne, pane[G7]
+[C]Já jsem [G]ostuda [Ami]trempů, 
+[F]Já když [C]chlempu,tak v [G]autokem[C]pu[G][C]
+{end_of_chorus}
+
+# Od tohoto bodu přeskakuji další opakování, TODO: conditional
+{start_of_verse: 2}
+Povídal mi frajer Džou, \
+jen žádný legrácky
+
+jinak schytneš na bendžo, \
+čestný čundrácky
+
+A prý se můžu vrátit zpět \
+až dám se do cajku
+
+A odříkám jim naspamět \
+akordy na vlajku
+{end_of_verse}
+
+{chorus}
+
+{start_of_verse: 3}
+A tak teď chodím po světe \
+a mám zaracha
+
+Na vandr chodím k Markétě \
+a dávám si bacha
+
+Dokud se trampské úřady \
+nepoučí z chyb
+
+Zpívám si to svý nevadí \
+a zase bude líp
+{end_of_verse}
+
+{chorus}
