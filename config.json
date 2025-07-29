@@ -52,6 +52,9 @@
         "chorus": {
             "indent" : 0,
             "tag" : "Ref",
+            "bar": {
+                "width": 1.5,
+            },
             "recall": {
                 "tag" : "Ref",
             },
@@ -86,14 +89,20 @@
             },
         ],
         "formats": {
+            "first": {
+                "title": [ "", "%{title}%{artist| - %{}}", "%{time}" ],
+                "subtitle": false,
+                "footer": [ "", "%{page}", "" ],
+            },
             "title": {
                 "title": [ "", "%{title}%{artist| - %{}}", "%{time}" ],
+                "subtitle": false,
                 "footer": [ "", "%{page}", "" ],
             },
             "default": {
                 "title": false,
                 "subtitle": false,
-                "footer": [ "", "%{title}%{artist| - %{}}", "%{page}" ],
+                "footer": [ "",  "%{page}", "%{title}%{artist| - %{}}" ],
             },
         },
     }
