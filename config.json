@@ -45,7 +45,7 @@
             "title": "Zpěvník",
             "author": "Ivo Žitnik",
         },
-        "showlayout" : true, // REMOVE LATER - ONLY FOR DEBUG
+        // "showlayout" : true, // REMOVE LATER - ONLY FOR DEBUG
         "margintop"  : 40,
         "headspace"  : 20,
         "chorus": {
