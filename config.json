@@ -26,14 +26,14 @@
         { 
             "fields"   : [ "title", "songindex" ],
             "label"    : "Obsah Abecedně",
-            "line"     : "%{title}%{artist| - %{}}",
+            "line"     : "%{title}",
             "pageno"   : "%{page}",
             "omit"     : false,
             "template" : "stdtoc",
         },
         { 
-            "fields"   : [ "artist", "songindex" ],
-            "label"    : "Content by Artist",
+            "fields"   : [ "artist", "title" ],
+            "label"    : "Obsah dle Autorů",
             "line"     : "%{artist|%{} - }%{title}",
             "pageno"   : "%{page}",
             "omit"     : true,
@@ -41,6 +41,7 @@
         },
     ],
     "pdf": {
+        "pagealign-songs": 0, 
         "info": { // PDF Metadata
             "title": "Zpěvník",
             "author": "Ivo Žitnik",
