@@ -1,5 +1,99 @@
 {
-	settings: {
-		memorize: true,
-	}
+    "settings": {
+        "titles"  : "left",
+    },
+    "metadata" : {
+        "keys": [ "title", "subtitle", "artist", "time", "tempo" ],
+        "strict": true,
+    },
+    "chords" : [
+        {
+            "name"    : "G",
+            "base"    : 1,
+            "frets"   : [ 3, 2, 0, 0, 3, 3 ],
+            "fingers" : [ 2, 1, 0, 0, 3, 4 ]
+        },
+    ],
+    "contents" : [ // Table of content
+        {
+            "fields"   : [ "songindex" ],
+            "label"    : "Obsah",
+            "line"     : "%{title}%{artist| - %{}}",
+            "pageno"   : "%{page}",
+            "omit"     : false,
+            "template" : "stdtoc",
+        },
+        { 
+            "fields"   : [ "title", "songindex" ],
+            "label"    : "Obsah Abecedně",
+            "line"     : "%{title}%{artist| - %{}}",
+            "pageno"   : "%{page}",
+            "omit"     : false,
+            "template" : "stdtoc",
+        },
+        { 
+            "fields"   : [ "artist", "songindex" ],
+            "label"    : "Content by Artist",
+            "line"     : "%{artist|%{} - }%{title}",
+            "pageno"   : "%{page}",
+            "omit"     : true,
+            "template" : "stdtoc",
+        },
+    ],
+    "pdf": {
+        "info": { // PDF Metadata
+            "title": "Zpěvník",
+            "author": "Ivo Žitnik",
+        },
+        "showlayout" : true, // REMOVE LATER - ONLY FOR DEBUG
+        "margintop"  : 40,
+        "headspace"  : 20,
+        "chorus": {
+            "indent" : 0,
+            "tag" : "Ref",
+            "recall": {
+                "tag" : "Ref",
+            },
+        },
+        "diagrams": {
+            "show"     : "right", // or top, right, below, false
+            "width"    : 6,      // of a cell
+            "height"   : 6,      // of a cell
+            "vcells"   : 4,      // vertically
+            "linewidth": 0.1,    // of a cell width
+            "nutwidth" : 4,      // linewidth
+            "hspace"   : 3.95,   // horizontal space between, fraction of width
+            "vspace"   : 3,      // vertical space between, fraction of height
+            "dotsize"  : 0.6,    // of a cell
+            "barwidth" : 0.6,    // of a dot
+            "fingers"  : false,   // show fingering if available (or "below")
+        },
+        "outlines" : [ // Clickable links in pdf
+            { "fields"   : [ "title", "artist" ],
+              "label"    : "By Title",
+              "line"     : "%{title}%{artist| - %{}}",
+              "collapse" : false,
+              "letter"   : 5,
+              "fold"     : false,
+            },
+            { "fields"   : [ "artist", "title" ],
+              "label"    : "By Artist",
+              "line"     : "%{artist|%{} - }%{title}",
+              "collapse" : false,
+              "letter"   : 5,
+              "fold"     : false,
+            },
+        ],
+        "formats": {
+            "title": {
+                "title": [ "", "%{title}%{artist| - %{}}", "%{time}" ],
+                "footer": [ "", "%{page}", "" ],
+            },
+            "default": {
+                "title": false,
+                "subtitle": false,
+                "footer": [ "", "%{title}%{artist| - %{}}", "%{page}" ],
+            },
+        },
+    }
 }
