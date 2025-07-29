@@ -44,8 +44,8 @@ rule clean
 
     # Per-song builds
     for song in songs:
-        f.write(f"build {os.path.basename(song).rstrip(
-            ".chordpro")}.pdf: build_song {song}\n")
+        f.write(f"build {os.path.basename(song)[
+                :-9]}.pdf: build_song {song}\n")
 
     f.write("\n")
     f.write("build clean: clean\n")
