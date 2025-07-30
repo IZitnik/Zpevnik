@@ -8,49 +8,53 @@ Intro
 [E]12[A]34 [E]12[A]34 [E]12[A]34
 {end_of_intro}
  
-{start_of_verse: 1}
-[B7]Král [A]do boje [E]táh[A][E]do [A]veliké [E]dálky
-[A]a s ním do té [E]války [B7]jel na mezku [E]klaun.
-[E]Než [A]hledí si [E]stáh,[A][E] tak z [A]výrazu [E]tváře
-[A]bys nepoznal [E]lháře, [B7]co zakrývá [E]strach.
-{end_of_verse}
+{sov: 1}
+[E7]Král [D]do boje [A]táh[D][A]do [D]veliké [A]dálky
+[D]a s ním do té [A]války [E7]jel na mezku [A]klaun.
+[A]Než [D]hledí si [A]stáh´,[D][A] tak z [D]výrazu [A]tváře
+[D]bys nepoznal [A]lháře, [E7]co zakrývá [A]strach.
+{eov}
  
-{start_of_chorus}
-[B7]Tiše šeptal při té hrůze [E]“Inter arma silent Musae”,
-[Fis7]místo zvonku cinkal brně[B7]ním. [B7]
-[B7]Král [A]do boje [E]táh[A][E]do [A]veliké [E]dálky
-[A]a s ním do té [E]války [B7]jel na mezku [E]klaun.[Gis][A][E][Fis7]
-{end_of_chorus}
+{soc}
+[E7]Tiše šeptal při té hrůze [A]“Inter arma silent Musae”,
+[B7]místo zvonku cinkal brně[E7]ním. 
+[E7]Král [D]do boje [A]táh[D][A]do [D]veliké [A]dálky
+[D]a s ním do té [A]války [E7]jel na mezku [A]klaun.[*(Cis D A B7)]
+{eoc}
  
-{start_of_verse: 2}
+{sov: 2}
 Král do boje táh a sotva se vzdálil,
 tak vesnice pálil a dobýval měst.
 Klaun v očích měl hněv, když sledoval žháře,
 jak smývali v páře prach z rukou a krev.
-{end_of_verse}
+{eov}
  
+Tiše šeptal při té hrůze	“Inter arma silent Musae”,
+místo loutny držel v ruce meč.
 {chorus}
  
-{start_of_verse: 3}
+{sov: 3}
 Král do boje táh s tou vraždící lůzou,
 klaun třásl se hrůzou a odvetu kul.
 Když v noci byl klid, tak oklamal stráže
 a nemaje páže sám burcoval lid.
-{end_of_verse}
+{eov}
  
+Všude křičel do té hrůzy, ve válce že mlčí Múzy,
+muži by však mlčet neměli.
 {chorus}
  
-{start_of_verse: 4}
+{sov: 4}
 Král do boje táh a v červáncích vlídných
 zřel na čele bídných, jak vstříc jde mu klaun.
 Když západ pak vzplál, tok potoků temněl,
 klaun tušení neměl, jak zahynul král.
-{end_of_verse}
+{eov}
  
-{start_of_chorus}
+{soc}
 Kdekdo křičel při té hrůze “Inter arma silent Musae”,
 krále z toho strachu trefil šlak.
 Klaun tiše se smál a zem žila dále
 a neměla krále, klaun na loutnu hrál, 
-[B7]klaun na loutnu [E]hrál, [B7]klaun na loutnu [E]hrál.
-{end_of_chorus}
+[E7]klaun na loutnu [A]hrál, [E7]klaun na loutnu [A]hrál.
+{eoc}
