@@ -11,6 +11,8 @@ songs\Jaromir-Nohavica-Gronska-zem.chordpro
 songs\Jaromir-Nohavica-Jdou-po-mne-jdou.chordpro
 songs\Jaromir-Nohavica-Kometa.chordpro
 songs\Jaromir-Nohavica-Pisen-zhrzeneho-trampa.chordpro
+songs\Jaromir-Nohavica-Zatanci.chordpro
+songs\Jiri-Schelinger-Holubi-dum.chordpro
 songs\Kamelot-Zachrante-kone.chordpro
 songs\Kamelot-Zeme-antilop.chordpro
 songs\Karel-Kryl-Kral-a-klaun.chordpro
@@ -19,8 +21,10 @@ songs\Karel-Plihal-Nosorozec.chordpro
 songs\Maci-Uz-to-nenapravim.chordpro
 songs\Michal-Tucny-Spim-v-obyli.chordpro
 songs\Miki-Ryvola-Bedna-od-whisky.chordpro
+songs\Mnaga-a-Zdorb-Nejlip-jim-bylo.chordpro
 songs\Mnaga-a-Zdorb-Speedy-gonzales.chordpro
 songs\Nedvedi-Blaznova-Ukolebavka.chordpro
+songs\Nedvedi-Hejna-Vcel.chordpro
 songs\Nedvedi-Hraz.chordpro
 songs\Nedvedi-Podvod.chordpro
 songs\Nedvedi-Stanky.chordpro
@@ -36,5 +40,6 @@ songs\Wabi-Danek-Hejkal.chordpro
 songs\Wabi-Danek-Hudsonsky-sipy.chordpro
 songs\Wabi-Danek-Montgomery.chordpro
 songs\Wabi-Danek-Slavici-z-madridu.chordpro
+songs\Waldamer-Matuska-Ruze-z-Texasu.chordpro
 songs\Zalman-Jdem-zpatky-do-lesu.chordpro
 songs\Zalman-Rana-v-trave.chordpro
