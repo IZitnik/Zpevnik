@@ -3,6 +3,7 @@ songs\Buty-Mam-jednu-ruku-dlouhou.chordpro
 songs\Divokej-Bill-Dolsin.chordpro
 songs\Fesaci-Buraky.chordpro
 songs\Fesaci-Jaro.chordpro
+songs\Fleret-Zafukane.chordpro
 songs\Greenhorns-Jesse-James.chordpro
 songs\Hop-Trop-Amazonka.chordpro
 songs\Hop-Trop-Tri-Krize.chordpro
@@ -32,14 +33,17 @@ songs\Okor.chordpro
 songs\Olympic-Dej-mi-vic-sve-lasky.chordpro
 songs\Pavel-Dobes-Jarmila.chordpro
 songs\Pepa-Stross-Reggae.chordpro
+songs\Poletime-Pojd-se-mnou-lasko-ma.chordpro
 songs\Tomas-Klus-Vlocka.chordpro
 songs\Traband-Mraky.chordpro
 songs\Traband-O-malem-rytiri.chordpro
 songs\Traband-Saro.chordpro
+songs\Vypsana-Fixa-Antidepresivni-rybicka.chordpro
 songs\Wabi-Danek-Hejkal.chordpro
 songs\Wabi-Danek-Hudsonsky-sipy.chordpro
 songs\Wabi-Danek-Montgomery.chordpro
 songs\Wabi-Danek-Slavici-z-madridu.chordpro
 songs\Waldamer-Matuska-Ruze-z-Texasu.chordpro
+songs\XindlX-popelka.chordpro
 songs\Zalman-Jdem-zpatky-do-lesu.chordpro
 songs\Zalman-Rana-v-trave.chordpro

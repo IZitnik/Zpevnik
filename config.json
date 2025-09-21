@@ -6,6 +6,16 @@
         "keys": [ "title", "subtitle", "artist", "time", "tempo" ],
         "strict": true,
     },
+    "diagrams": {
+        "show": "all",
+        "suppress": [
+            "G", 
+            "C",
+            "A", "Am",
+            "E", "E7", "Em",
+            "D", "D7"
+        ]
+    },
     "chords" : [
         {
             "name"    : "G",
