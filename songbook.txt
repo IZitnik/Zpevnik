@@ -1,4 +1,5 @@
 cover.pdf
+songs\Asonance-Carodejnice-z-Amesbury.chordpro
 songs\Buty-Mam-jednu-ruku-dlouhou.chordpro
 songs\Divokej-Bill-Dolsin.chordpro
 songs\Fesaci-Buraky.chordpro
@@ -40,6 +41,7 @@ songs\Pavel-Dobes-Zapomenuty-trumf.chordpro
 songs\Pepa-Stross-Reggae.chordpro
 songs\Poletime-Pojd-se-mnou-lasko-ma.chordpro
 songs\Tomas-Klus-Dopis.chordpro
+songs\Tomas-Klus-Marie.chordpro
 songs\Tomas-Klus-Neklid.chordpro
 songs\Tomas-Klus-Vlocka.chordpro
 songs\Traband-Mraky.chordpro
