@@ -3,7 +3,7 @@
         "titles"  : "left",
     },
     "metadata" : {
-        "keys": [ "title", "subtitle", "artist", "time", "tempo" ],
+        "keys": [ "title", "sorttitle", "subtitle", "artist", "time", "tempo" ],
         "strict": true,
     },
     "diagrams": {
@@ -34,7 +34,7 @@
             "template" : "stdtoc",
         },
         { 
-            "fields"   : [ "title", "songindex" ],
+            "fields"   : [ "sorttitle", "songindex" ],
             "label"    : "Obsah Abecedně",
             "line"     : "%{title}",
             "pageno"   : "%{page}",
@@ -42,7 +42,7 @@
             "template" : "stdtoc",
         },
         { 
-            "fields"   : [ "artist", "title" ],
+            "fields"   : [ "artist", "sorttitle" ],
             "label"    : "Obsah dle Autorů",
             "line"     : "%{artist|%{} - }%{title}",
             "pageno"   : "%{page}",
