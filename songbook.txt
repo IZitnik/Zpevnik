@@ -57,3 +57,4 @@ songs\Waldamer-Matuska-Ruze-z-Texasu.chordpro
 songs\XindlX-popelka.chordpro
 songs\Zalman-Jdem-zpatky-do-lesu.chordpro
 songs\Zalman-Rana-v-trave.chordpro
+songs\Zvonik.chordpro
