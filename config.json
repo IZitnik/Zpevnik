@@ -1,5 +1,4 @@
-{
-    "settings": {
+{    "settings": {
         "titles"  : "left",
     },
     "metadata" : {
@@ -44,19 +43,56 @@
         },
     ],
     "pdf": {
+        "theme": { "background": "#eff1f5" },
+        "fontdir": [ "./fonts" ],
+        "fontconfig": {
+            "coolvetica": {
+                "":           "coolvetica/Coolvetica Rg.otf",
+                "bold":       "coolvetica/Coolvetica Hv Comp.otf",
+                "italic":     "coolvetica/Coolvetica Rg It.otf"
+            },
+            "garet": {
+                "":     "garet/Garet-Book.otf",
+                "bold": "garet/Garet-Heavy.otf"
+            },
+            "orangejuice": {
+                "": "orange_juice/orange juice 2.0.ttf"
+            },
+        },
+        "fonts": {
+            "title": {
+                "description": "orangejuice 18",
+                "color": "#4c4f69"
+            },
+            "subtitle": {
+                "description": "coolvetica 12"
+            },
+            "text": {
+                "description": "garet 10",
+                "color": "#4c4f69"
+            },
+            "chord": {
+                "description": "garet 9",
+                "color": "#179299"
+            },
+            "chorus": {
+                "color": "#5c5f77"
+            }
+        },
         "pagealign-songs": 0, 
         "info": { // PDF Metadata
             "title": "Zpěvník",
             "author": "Ivo Žitnik",
         },
         // "showlayout" : true, // REMOVE LATER - ONLY FOR DEBUG
-        "margintop"  : 40,
-        "headspace"  : 20,
+        "margintop"  : 50,
+        "headspace"  : 30,
         "chorus": {
             "indent" : 0,
             "tag" : "Ref",
             "bar": {
                 "width": 1.5,
+                "color": "#7c7f93"
             },
             "recall": {
                 "tag" : "Ref",
