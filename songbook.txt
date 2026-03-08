@@ -17,6 +17,7 @@ songs\Jaromir-Nohavica-Kometa.chordpro
 songs\Jaromir-Nohavica-Pisen-zhrzeneho-trampa.chordpro
 songs\Jaromir-Nohavica-Zatanci.chordpro
 songs\Jiri-Schelinger-Holubi-dum.chordpro
+songs\Kabat-Colorado.chordpro
 songs\Kabat-Kdovi-jestli.chordpro
 songs\Kabat-Raci-v-praci.chordpro
 songs\Kamelot-Zachrante-kone.chordpro
