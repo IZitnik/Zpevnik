@@ -8,15 +8,14 @@
     "diagrams": {
         "show": "all",
     },
-    "chords" : [
+    "chords": [
         {
             "name"    : "G",
             "base"    : 1,
-            "frets"   : [ 3, 2, 0, 0, 3, 3 ],
-            "fingers" : [ 2, 1, 0, 0, 3, 4 ]
-        },
+            "frets"   : [ 3, 2, 0, 0, 3, 3 ]
+        }
     ],
-    "contents" : [ // Table of content
+    "contents" : [
         {
             "fields"   : [ "songindex" ],
             "label"    : "Obsah",
@@ -130,17 +129,17 @@
         "formats": {
             "first": {
                 "title": [ "", "%{title}%{artist| - %{}}", "%{time}" ],
-                "subtitle": false,
+                "subtitle": [ "", "", "" ],
                 "footer": [ "", "%{page}", "" ],
             },
             "title": {
                 "title": [ "", "%{title}%{artist| - %{}}", "%{time}" ],
-                "subtitle": false,
+                "subtitle": [ "", "", "" ],
                 "footer": [ "", "%{page}", "" ],
             },
             "default": {
-                "title": false,
-                "subtitle": false,
+                "title": [ "", "", "" ],
+                "subtitle": [ "", "", "" ],
                 "footer": [ "",  "%{page}", "%{title}%{artist| - %{}}" ],
             },
         },
