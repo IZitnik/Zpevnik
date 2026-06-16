@@ -1,17 +1,17 @@
 import os
 
-SONG_DIR = "songs"
-RES_DIR = "result"
-CONFIG = "config.json"
-COVER = "cover.pdf"
-SONGBOOK = "Zpevnik.pdf"
-SONGBOOK_SRC = "songbook.txt"
+SONG_DIR = os.environ.get("SONG_DIR", "songs")
+BUILD_DIR = os.environ.get("BUILD_DIR", "_build")
+CONFIG = os.environ.get("CONFIG", "config.json")
+COVER = os.environ.get("COVER", "cover.pdf")
+SONGBOOK = os.environ.get("SONGBOOK", "Zpevnik.pdf")
+SONGBOOK_SRC = os.environ.get("SONGBOOK_SRC", "songbook.txt")
 
-# initialize RES_DIR & SONG_DIR
+# initialize BUILD_DIR & SONG_DIR
 if not os.path.exists(SONG_DIR):
     os.makedirs(SONG_DIR)
-if not os.path.exists(RES_DIR):
-    os.makedirs(RES_DIR)
+if not os.path.exists(BUILD_DIR):
+    os.makedirs(BUILD_DIR)
 
 # Get all .chordpro files in the songs directory
 songs = [os.path.join(SONG_DIR, f)
@@ -27,7 +27,7 @@ if not os.path.exists(SONGBOOK_SRC):
 with open("build.ninja", "w") as f:
     f.write(f"""# Auto-generated build.ninja
 song_dir = {SONG_DIR}
-res_dir = {RES_DIR}
+res_dir = {BUILD_DIR}
 config = {CONFIG}
 cover = {COVER}
 songbook = {SONGBOOK}
