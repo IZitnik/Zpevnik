@@ -1,3 +1,4 @@
 .ninja_log
 build.ninja
 result/
+_build/
