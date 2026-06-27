@@ -3,16 +3,15 @@
 {comment: Capo #3}
 
 {start_of_bridge}
-[Am7]1234 1234 [D7]1234 1234 [F]1234 [E]12[E7]34 [Am]1234 [E]1234
-[Am7]1234 1234 [D7]1234 1234 [F]1234 [E]12[E7]34 [Am]1234 [E]1234
+[Am7]1234 1234 [D7]1234 1234 [F]1234 [E]12[E7]34 [Am]1234 [E7]1234
+[Am7]1234 1234 [D7]1234 1234 [F]1234 [E]12[E7]34 [Am]1234 [E7]1234
 {end_of_bridge}
 
 {start_of_verse: 1}
 [Am7]V devět hodin dvacet[Am]pět, [D7]mě opustilo štěstí
 ten [F]vlak co jsem jím měl jet na koleji [E]dávno [E7]nestál
 [Am7]V devět hodin dvacet[Am]pět [D7]jako bych dostal pěstí
-já [F]za hodinu na náměstí měl jsem [E]stát 
-ale v [E7]jiným městě
+já [F]za hodinu na náměstí měl jsem [E]stát ale v [E7]jiným městě
 {end_of_verse}
 
 {start_of_chorus}
@@ -45,5 +44,5 @@ už to nenapravím, už to nenapravím
 {end_of_chorus}
 
 {start_of_bridge}
-Vap tap tap...
+Vap tap tap... [*Zakončené na Am bez E7]
 {end_of_bridge}
