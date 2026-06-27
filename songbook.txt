@@ -7,6 +7,7 @@ songs\Fesaci-Buraky.chordpro
 songs\Fesaci-Jaro.chordpro
 songs\Fleret-Zafukane.chordpro
 songs\Greenhorns-Jesse-James.chordpro
+songs\Hop-Trop-Amazonka.chordpro
 songs\Hop-Trop-Sotva-se-narodis.chordpro
 songs\Hop-Trop-Tri-Krize.chordpro
 songs\Horkyze-Slize-Atomovy-kryt.chordpro
@@ -25,7 +26,7 @@ songs\Karel-Kryl-Andel.chordpro
 songs\Karel-Kryl-Kral-a-klaun.chordpro
 songs\Karel-Kryl-Morituri-te-salutant.chordpro
 songs\Karel-Plihal-Nosorozec.chordpro
-songs\Maci-Uz-to-nenapravim.chordpro
+songs\McCartney-Blackbird.chordpro
 songs\Michal-Tucny-Spim-v-obyli.chordpro
 songs\Miki-Ryvola-Bedna-od-whisky.chordpro
 songs\Mnaga-a-Zdorb-Hodinovy-hotel.chordpro
@@ -37,12 +38,14 @@ songs\Nedvedi-Blaznova-Ukolebavka.chordpro
 songs\Nedvedi-Hejna-Vcel.chordpro
 songs\Nedvedi-Stanky.chordpro
 songs\Nezmari-Hej-clovece-bozi.chordpro
+songs\Nezmari-Mary-Lou.chordpro
 songs\Okor.chordpro
 songs\Olympic-Dej-mi-vic-sve-lasky.chordpro
 songs\Olympic-Jasna-Zprava.chordpro
 songs\Pavel-Dobes-Jarmila.chordpro
 songs\Pavel-Dobes-Zapomenuty-trumf.chordpro
 songs\Petr-Novak-Povidej.chordpro
+songs\Samson-Uz-to-nenapravim.chordpro
 songs\Poletime-Pojd-se-mnou-lasko-ma.chordpro
 songs\Spiritual-Kvintet-Batalion.chordpro
 songs\Tomas-Klus-Chybis-mi.chordpro
