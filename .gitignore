@@ -1,4 +1,5 @@
 .ninja_log
+.python-version
 build.ninja
 result/
 _build/
