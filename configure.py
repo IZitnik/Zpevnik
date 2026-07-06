@@ -3,7 +3,6 @@ import os
 SONG_DIR = os.environ.get("SONG_DIR", "songs")
 BUILD_DIR = os.environ.get("BUILD_DIR", "_build")
 CONFIG = os.environ.get("CONFIG", "config.json")
-COVER = os.environ.get("COVER", "cover.pdf")
 SONGBOOK = os.environ.get("SONGBOOK", "Zpevnik.pdf")
 SONGBOOK_SRC = os.environ.get("SONGBOOK_SRC", "songbook.txt")
 
@@ -20,7 +19,6 @@ songs = [os.path.join(SONG_DIR, f)
 # Generate songbook.txt if it doesn't exist
 if not os.path.exists(SONGBOOK_SRC):
     with open(SONGBOOK_SRC, "w") as f:
-        f.write(COVER + "\n")
         for song in songs:
             f.write(song + "\n")
 
@@ -29,7 +27,6 @@ with open("build.ninja", "w") as f:
 song_dir = {SONG_DIR}
 res_dir = {BUILD_DIR}
 config = {CONFIG}
-cover = {COVER}
 songbook = {SONGBOOK}
 
 rule build_songbook
