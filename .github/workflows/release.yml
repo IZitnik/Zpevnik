@@ -21,7 +21,7 @@ jobs:
           github_access_token: ${{ github.token }}
 
       - name: Build songbook
-        run: nix-build --out-link result
+        run: nix build .#
 
       - name: Verify generated PDF
         run: test -f "result/Zpevnik.pdf"
