@@ -8,9 +8,6 @@ on:
 permissions:
   contents: write
 
-env:
-  TARGET: songbook
-
 jobs:
   release:
     runs-on: ubuntu-24.04
@@ -35,10 +32,6 @@ jobs:
         run: |
           gh release create "${GITHUB_REF_NAME}" \
             "result/Zpevnik.pdf#$Zpevnik.pdf" \
-            --title "${GITHUB_REF_NAME}" \
-            --generate-notes \
-            --verify-tag
-            "_build/Zpevnik.pdf#Zpevnik.pdf" \
             --title "${GITHUB_REF_NAME}" \
             --generate-notes \
             --verify-tag
