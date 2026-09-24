@@ -77,4 +77,7 @@ songs\XindlX-popelka.chordpro
 songs\Zalman-Cekej-mala-greto.chordpro
 songs\Zalman-Jdem-zpatky-do-lesu.chordpro
 songs\Zalman-Rana-v-trave.chordpro
+songs\Znouzectnost-Balada-o-stinu.chordpro
+songs\Znouzectnost-Bastila.chordpro
+songs\Znouzectnost-Certi-jdou.chordpro
 songs\Zvonik.chordpro
