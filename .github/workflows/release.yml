@@ -10,28 +10,27 @@ permissions:
 
 jobs:
   release:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     steps:
       - name: Check out tagged source
         uses: actions/checkout@v5
 
-      - name: Install Nix
-        uses: cachix/install-nix-action@v31
-        with:
-          github_access_token: ${{ github.token }}
-
-      - name: Build songbook
-        run: nix-build --out-link result
-
-      - name: Verify generated PDF
-        run: test -f "result/Zpevnik.pdf"
-
-      - name: Create GitHub release
-        env:
-          GH_TOKEN: ${{ github.token }}
+      - name: Build songbook PDF with ChordPro
         run: |
-          gh release create "${GITHUB_REF_NAME}" \
-            "result/Zpevnik.pdf#$Zpevnik.pdf" \
-            --title "${GITHUB_REF_NAME}" \
-            --generate-notes \
-            --verify-tag
+          docker run --rm \
+            -v "${{ github.workspace }}:/workdir" \
+            -w /workdir \
+            chordpro/chordpro \
+            --config=config.json \
+            --file=songbook.txt \
+            -o Zpevnik.pdf
+
+      - name: Verify PDF was created
+        run: test -s Zpevnik.pdf
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: Zpevnik.pdf
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
