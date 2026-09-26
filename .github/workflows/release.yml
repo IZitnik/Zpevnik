@@ -18,6 +18,7 @@ jobs:
       - name: Build songbook PDF with ChordPro
         run: |
           docker run --rm \
+            --entrypoint chordpro \
             -v "${{ github.workspace }}:/workdir" \
             -w /workdir \
             chordpro/chordpro \
