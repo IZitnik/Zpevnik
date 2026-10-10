@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 
 SONG_DIR = os.environ.get("SONG_DIR", "songs")
 BUILD_DIR = os.environ.get("BUILD_DIR", "_build")
@@ -13,14 +14,17 @@ if not os.path.exists(BUILD_DIR):
     os.makedirs(BUILD_DIR)
 
 # Get all .chordpro files in the songs directory
-songs = [os.path.join(SONG_DIR, f)
-         for f in os.listdir(SONG_DIR) if f.endswith(".chordpro")]
+songs = [
+    Path(SONG_DIR) / songname
+    for songname in os.listdir(SONG_DIR)
+    if songname.endswith(".chordpro")
+]
 
 # Generate songbook.txt if it doesn't exist
 if not os.path.exists(SONGBOOK_SRC):
     with open(SONGBOOK_SRC, "w") as f:
         for song in songs:
-            f.write(song + "\n")
+            f.write(song.as_posix() + "\n")
 
 with open("build.ninja", "w") as f:
     f.write(f"""# Auto-generated build.ninja
@@ -46,12 +50,11 @@ rule clean
 """)
 
     # Songbook build using all songs
-    song_inputs = " ".join(songs)
+    song_inputs = " ".join(song.as_posix() for song in songs)
     f.write(f"build $songbook: build_songbook {SONGBOOK_SRC}\n\n")
     # Per-song builds
     for song in songs:
-        f.write(f"build {os.path.basename(song)[
-                :-9]}.pdf: build_song {song}\n")
+        f.write(f"build {song.with_suffix('.pdf').name}: build_song {song.as_posix()}\n")
     f.write("\n")
     f.write("build clean: clean\n")
     f.write("\n")
