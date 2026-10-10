@@ -1,0 +1,45 @@
+{title: Panenka Chou Chou}
+{artist: Vypsaná Fixa}
+
+{chord: B base-fret 7 frets 1 3 3 2 1 1 }
+{chord: C# base-fret 9 frets 1 3 3 2 1 1 }
+{chord: D base-fret 10 frets 1 3 3 2 1 1 }
+
+{comment: Intro}
+[F#] [B] [A] [B]
+[F#] [B] [A] [B]
+
+{start_of_verse: 1}
+[F#]Seděli vedle sebe na [B]místě kde byla [A]armád[B]a,
+[F#]lidí ale tak opravdu k sobě [B]patřili jen [A]oni [B]dva.
+Její [F#]babička z Alma-Aty byla [B]čarodějka j[A]ako [B]hrom
+[F#]vypadala jako panenka Chou Chou [B]on byl taky na [A]š - š[B]ampion.
+{end_of_verse}
+
+{start_of_bridge}
+[F#]Šušú Honšú Kjúšú, ostrovy se zvedaj [B]nevinně[A][B]
+[F#]Šušú Honšú Kjúšú, láva neteče po [B]rovině.[A][B]
+[A]A tak se naklonil a do ucha jí [G#]řek:
+{end_of_bridge}
+
+{start_of_chorus}
+[A]Mám chuť na [C#]letmý poli[F#m]bek, teď [D]hned a ona,
+[A]ano ano ano ano [C#]ano ano jsem úplně [F#m]hladová.[D]
+[A]Mám chuť na [C#]letmý poli[F#m]bek, teď [D]hned a ona,
+[A]ano ano ano ano [C#]ano ano dál nikdo [F#m]nic nedo[D]dal.
+{end_of_chorus}
+
+{start_of_verse: 2}
+[F#]Seděli vedle sebe, [B]karty byly [A]rozda[B]ný,
+[F#]nalajnovaný lajny by[B]ly tlustý a [A]pořád[B]ný.
+[F#]Seděli vedle sebe, čas [B]padal někam d[A]o rok[B]le,
+[F#]on i jeho panenka Chou Chou, so[B]pečná činnost [A]propu[B]kne.
+{end_of_verse}
+
+{start_of_bridge}
+[F#]Šušú Honšú Kjúšú, ostrovy se zvedaj [B]nevinně[A][B]
+[F#]Šušú Honšú Kjúšú, láva neteče po [B]rovině.[A][B]
+[A]A tak se naklonil a do ucha jí [G#]řek:
+{end_of_bridge}
+
+{chorus: Ref. 2x}
